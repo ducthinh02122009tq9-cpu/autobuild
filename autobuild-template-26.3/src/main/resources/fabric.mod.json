@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "autobuild",
 	"version": "${version}",
-	"name": "autobuild",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "AutoBuild",
+	"description": "Tu dong xay file .litematic nhu nguoi choi that.",
 	"authors": [
 		"Me!"
 	],
@@ -13,15 +13,12 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/autobuild/icon.png",
-	"environment": "*",
-	""entrypoints": { "client": ["com.example.autobuild.AutoBuildMod"] }": {
-		""environment": "client"": [
-			"com.example.Autobuild"
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.autobuild.AutoBuildMod"
 		]
 	},
-	""environment": "client"": [
-		"autobuild.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",
